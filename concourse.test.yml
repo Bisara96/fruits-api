@@ -6,7 +6,7 @@ image_resource:
     repository: node:12
 
 run:
-  path: fruitapi-master/test.sh
+  path: fruitapi-masddter/test.sh
 
 inputs:
 - name: fruitapi-master
