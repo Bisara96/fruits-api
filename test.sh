@@ -1,4 +1,5 @@
 OUTPUT_DIR=$(pwd)/new-release
+mkdir $OUTPUT_DIR
 echo $OUTPUT_DIR
 
 echo testing fruit-api
