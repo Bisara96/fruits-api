@@ -4,7 +4,7 @@ echo $OUTPUT_DIR
 
 echo testing fruit-api
 
-echo ls
+ls
 
 cp ./app.js $OUTPUT_DIR/release-binary
 
