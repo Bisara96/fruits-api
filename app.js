@@ -1,9 +1,13 @@
-var express = require('express'),
-    app = express(),
-    port = process.env.PORT || 3000;
+var express = require('express');
+var cors = require('cors');
+
+var app = express();
+var port = process.env.PORT || 3000;
+
+app.use(cors());
 
 app.listen(port, () => {
-    console.log("Fruit api is up and running at 3000");
+    console.log(`Fruit api is up and running at ${port}`);
 });
 
 app.get("/fruits", (req, res, next) => {
