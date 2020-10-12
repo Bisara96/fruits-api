@@ -1,0 +1,17 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: node:12
+
+run:
+  path: /usr/fruitapi-master/test.sh
+
+inputs:
+- name: fruitapi-master
+  path: /usr/fruitapi-master
+
+outputs:
+- name: fruitapi-master
+
