@@ -4,9 +4,9 @@ echo $OUTPUT_DIR
 
 echo testing fruit-api
 
-ls
+ls usr/src/app/fruitapi-master/
 
-cp ./app.js $OUTPUT_DIR/release-binary
+cp usr/src/app/fruitapi-master/app.js $OUTPUT_DIR/release-binary
 
 NEXT=$(date +%s)
 
