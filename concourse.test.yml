@@ -15,4 +15,4 @@ inputs:
   path: usr/src/app/fruitapi-master
 
 outputs:
-- name: fruitapi-master
+- name: new-release
