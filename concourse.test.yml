@@ -3,10 +3,11 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: node:12
+    repository: node
+    tag: '12'
 
 run:
-  path: fruitapi-masddter/test.sh
+  path: fruitapi-master/test.sh
 
 inputs:
 - name: fruitapi-master
