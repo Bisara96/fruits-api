@@ -7,11 +7,11 @@ image_resource:
     tag: '12'
 
 run:
-  path: fruitapi-master/test.sh
+  path: usr/src/app/fruitapi-master/test.sh
 
 inputs:
 - name: fruitapi-master
-  path: fruitapi-master
+  path: usr/src/app/fruitapi-master
 
 outputs:
 - name: fruitapi-master
